@@ -2,11 +2,11 @@
 
 import styles from "../styles";
 import { motion } from "framer-motion";
-import { staggerContainer, textVariant, textVariant2 } from "../utils/motion";
+import { slideIn, staggerContainer, textVariant, textVariant2 } from "../utils/motion";
 
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} pl-6 sm:pl-16`}>
+  <section className={`${styles.yPaddings} pl-6 sm:pl-16 sm: pr-16`}>
     <motion.div 
       variants={staggerContainer}
       initial="hidden"
@@ -27,6 +27,22 @@ const Hero = () => (
           <h1 className={`${styles.heroHeading}`}>LuDog</h1>
         </motion.div>
       </div>
+      <motion.div
+      variants={slideIn("right", "tween", 0.2, 1)}
+      className="w-full relative -mt-[-12px] md:-mt-[20px]"
+      >
+        <div className="w-full h-[250px] absolute -top-[20px] rounded-tl-[130px] hero-gradient z-[0]" />
+          <img 
+            src="/cover.png" 
+            alt="cover" 
+            className="sm:h-[400px] h-[250px] relative rounded-tl-[130px] object-cover w-full z-10"/>
+        <a href="#explore">
+          <div className=" relative flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] z-10">
+            <img src="/stamp.png" alt="" className="sm:h-[150px] sm:w-[150px] h-[100px] w-[100px] object-contain"/>
+          </div>
+        </a>
+
+      </motion.div>
     </motion.div>
   </section>
 );
