@@ -16,21 +16,17 @@ const About = () => (
     className={`${styles.flexCenter} ${styles.innerWidth} mx-auto flex-col`}>
       <TypingText title="| フレブルの魅力ってなんだろう？" textStyles="text-center"/>
       <motion.p 
-        className="text-secondary-white mt-[18px] text-[20px] sm:text-[32px]" 
+        className="text-primary-black font-bold mt-[18px] text-[18px] sm:text-[28px]" 
         variants={fadeIn("up", "tween", 0.2, 1)}>
-      <span className="text-white font-extrabold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      <span className="text-white font-extrabold">It has survived not only five centuries</span>, but also the leap into electronic typesetting, 
-      remaining essentially unchanged. 
-      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        フレンチブルドッグはネーミングからもわかるようにフランスで生まれた犬種です
+        フレンチブルドッグの歴史フレンチブルドッグの起源については多くの説があります。<br/>祖先犬はイギリスからフランスへの移住者たちが連れてきたイングリッシュ・ブルドッグという説とスペインからのマスティフ犬がイギリスからフランスへ渡ったという説があり、特定されていません。<br />
+        いずれにしても、他国原産の犬種がフランスに渡り、フランスでパグやテリアと交配し、祖先犬をより小型化したのがフレンチブルドッグです。
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/arrow-down.svg" 
         alt="arrow-down" 
-        className="w-[18px] h-[30px] mt-[44px] object-contain"/>
+        className="w-[18px] h-[30px] mt-[44px] object-contain text-black"/>
     </motion.div>
   </section>
 );

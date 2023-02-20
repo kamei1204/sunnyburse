@@ -12,7 +12,7 @@ const ExploreCard = () => {
   const [active, setActive] = useState("world-2");
 
   return(
-  <section className={`${styles.paddings}`} id="explore">
+  <section className={`${styles.paddings} relative`}id="explore">
     <motion.div
     variants={staggerContainer}
     initial="hidden"
@@ -20,9 +20,9 @@ const ExploreCard = () => {
     viewport={{ once : false, amount : 0.25 }}
     className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title=" | The BullDog " textStyles="text-center"/>
+      <TypingText title=" | フレブルにも種類があるの？ " textStyles="text-center"/>
       <TitleText  
-        title={<>BullDog<br className="md:block hidden"/>to explore</>}
+        title={<> The FrenchBullDog</>}
         textStyles="text-center"/>
       <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
         {exploreWorlds.map((world,index) => (

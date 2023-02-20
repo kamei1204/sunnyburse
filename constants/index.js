@@ -1,88 +1,80 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/Fawn.jpg',
+    title: 'Fawn',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/Brindle.jpg',
+    title: 'Brindle',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/Pied.jpg',
+    title: 'Pied',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/Fawn&White.jpg',
+    title: 'Fawn & White',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/Cream4.jpg',
+    title: 'Cream',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  '愛嬌のある顔とコミカルでユニークな動きが、見る人を大変喜ばせ飽きさせない',
+  'がっちりとした風貌ではありますが、子どもや知らない人にも愛想がよく、愛情深い',
+  '好奇心旺盛で活発な性格なので、ボールなどのオモチャで遊ぶのも大好き。',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'American Type',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        '胴が詰まっていて短く、ショートボディでコロンとしていてコンパクトなフレブル',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Europa Type',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'シャープで筋肉質、迫力ボディのがっちりタイプなフレブル',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/sunny4.jpg',
+    title: 'リラックスして体がゆるゆる～になっている',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'あくせく動いていたり、走り回っている犬を見ると、まるで喜んでいるようにみえることがありますが、実際はただ興奮しているだけのこともあります。あなたに信頼を寄せている愛ブヒであれば、興奮状態の時だけではなく、「体がとろけそうなほどゆるゆる」な時間に出会えるはず。',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/sunny5.jpg',
+    title: 'ブヒの表情を見て、好きか嫌いかがわかる',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'フレブルは体調の変化を、かゆい、痛い、だるい、ねむい、おなかがすいた、お水欲しい、おトイレに行きたい…など、たくさんの気持ちで表現しています。日本語が話せないフレブルたちですが、オーナーさんがフレブル語を聞き取れるようになったら良いわけです。家族の共通言語がフレブル語になれば愛ブヒも安心して暮らせますね'
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/sunny6.jpg',
+    title: '一緒に遊ぶことが出来る',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'フレンチブルドッグが大好きなこと、その一つが「遊ぶこと」です。ときに興奮して暴走してしまうこともあるけれど、はちきれんばかりの可愛いBODYに詰め込まれた、莫大なエネルギーを、遊ぶことによって発散してあげましょう。遊びは運動の意味合いだけでなく、愛ブヒとオーナーさんの心と心をつなぐ重要な役割があります。集団行動をし、群れで狩りをする犬たちは、一緒に冒険や遊びをすることが大好き！オモチャの引っ張りっ子や、オーナーさんとの追いかけっこなど、共同作業を通して愛ブヒとあなたの愛を深めることが出来ます。'
   },
 ];
 
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    url: '/twitter.png',
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    url: '/instagram.png',
   },
 ];
