@@ -20,15 +20,15 @@ const Card = ({ id, imgUrl, active, title, index, handleClick }) => {
         <h3 className="font-semibold text-[18px] 
         sm:text-[26px] text-white 
         absolute z-0
-        lg:bottom-[80px] lg:rotate-[-90deg] lg:origin-[0,0]">{title}</h3>
+        lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">{title}</h3>
       ) : (
-        <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+        <div className="absolute bottom-0 p-8 justify-start w-full flex-col rounded-b-[24px]">
           <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}>
             <img src="/headset.svg" alt="headSet" className="w-1/2 h-1/2 object-contain"/>
           </div>
-          <p className="font-normal text-[16px] uppercase text-white leading-[20px]">
+          {/* <p className="font-normal text-[16px] uppercase text-white leading-[20px]">
             enter the sunnyBurse
-          </p>
+          </p> */}
           <h2 className="mt-[24px] text-[24px] sm:text-[24px] font-semibold text-white">
             {title}
           </h2>
