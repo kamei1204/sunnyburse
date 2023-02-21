@@ -2,7 +2,7 @@
 
 import styles from "../styles";
 import { motion } from "framer-motion";
-import { planetVariants, slideIn, staggerContainer, textVariant, textVariant2 } from "../utils/motion";
+import { planetVariants, staggerContainer } from "../utils/motion";
 import { TitleText, TypingText } from "../components/CustomTexts";
 import { startingFeatures } from "../constants";
 import StartSteps from "../components/StartSteps";
@@ -24,7 +24,7 @@ const GetStarted = () => (
         <TitleText title={<>フレブルの魅力</>}/>
         <div className="mt-[31px] flex flex-col gap-[24px] max-w-[370px]">
           {startingFeatures.map((feature, index) => (
-            <StartSteps key={feature.id} number={index + 1} text={feature}/>
+            <StartSteps key={index} number={index + 1} text={feature}/>
           ))}
         </div>
       </motion.div>
