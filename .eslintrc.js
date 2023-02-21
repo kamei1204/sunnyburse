@@ -6,7 +6,8 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "next/core-web-vitals"
     ],
     "overrides": [
     ],
@@ -21,5 +22,10 @@ module.exports = {
             "react/jsx-uses-react": "off",
             "react/react-in-jsx-scope": "off",
             'react/prop-types': ['off'], 
-    }
+    },
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
 }
